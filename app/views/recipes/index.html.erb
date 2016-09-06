@@ -1,0 +1,9 @@
+<table>
+<% @recipes.each do |item| %>
+    <tr>
+        <td>Name : <%= item.name %></td>
+        <td>Description: <%= item.description%></td>
+        <td>Type: <%= item.type %></td>
+    </tr>
+<% end %>
+</table>
